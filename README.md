@@ -43,3 +43,16 @@ Ejemplo de uso:
 	./script.sh -u
 
 Nota: Se debe tener permisos de ejecución para ejecutar el script como anteriormente se mostro y con un usuario que tenga permisos sobre el comando ip link ... como ejemplo root, o utilizando sudo configurado para tener los permisos con el usuario que esta ejecutando el script..
+
+			script_valida_connect.sh @JABM 12/Mar/2019
+Este script sirve para validar la conexión de los hosts a los que alcanza la red, se puede modificar las variables dentro del mismo para definir el tiempo máximo del ping y el host desde donde empezará hasta donde terminará.
+Es importante mencionar que se debe de ingresar como primer parámetro la dirección de red.
+Ejemplo de uso:
+	./script 192.168.1.0
+Como esta configurado actualmete imprimirá en pantalla todos las direcciones IP a las que se le pueda hacer ping.
+Ejemplo de salida:
+	192.168.1.1
+	192.168.1.2
+	192.168.1.4
+	192.168.1.12
+	192.168.1.26
