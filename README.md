@@ -1,4 +1,4 @@
-# bash
+# SHELL
 
     Instrucciones de uso
     
