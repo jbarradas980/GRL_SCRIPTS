@@ -1,8 +1,9 @@
 #!/bin/bash
-#Este script permite validar la cantidad de hosts en una red a la que se le puede hacer ping desde .1 a .254.
+#Fecha de creación: 17 / Marzo / 2019
+#Descripcióin: Este script permite validar la cantidad de hosts en una red a la que se le puede hacer ping desde .1 a .254.
 #Se pueden cambiar los siguientes valores para definir donde inicia la detección de hosts y donde termina.
 INICIA_PING=1
-FIN_PING=100
+FIN_PING=254
 #Se define el tiempo maximo del ping
 MAX_TIME=2
 
