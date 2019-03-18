@@ -1,9 +1,9 @@
 #!/bin/bash
-
+#Fecha de creación: 28 / Febrero / 2019
+#Descripción: Este scrpt permite agregar nuevos usuarios al sistema operativo DEBIAN y además valida que la contraseña sea segura con ciertos criterios.
 function modoUso () {
 	echo "Uso de script: Agregar usuarios v1."
-	echo "Este script sirve para agregar nuevos"
-	echo "usuarios."
+	echo "Este script sirve para agregar nuevos usuarios"
 	echo " Ejemplo:"
 	echo "	./add_user.sh USUARIO"
 	echo "				@JABM v1.16"
