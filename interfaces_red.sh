@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#Fecha de creación: 15 / Febrero / 2019
+#Script para dar de alta o de baja todas las interfaces de nuestro computador, esto con la paqueteria iproute2
 function modoUso(){
 	echo "Script para dar de baja o alta todas las interfaces de red"
 	echo " sudo [OPCIONES] ./interfaces"
